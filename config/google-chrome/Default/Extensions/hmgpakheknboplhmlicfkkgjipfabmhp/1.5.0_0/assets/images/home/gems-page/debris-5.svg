@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="47px" viewBox="0 0 39 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>debris-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="36.3339844 11.0292969 21.7773438 0.54296875 1.92781995 17.7754515 0 46.375 38.2238098 43.1409512"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-2128.000000, -2121.000000)">
+            <g id="Group-26" transform="translate(1806.000000, 2019.000000)">
+                <g id="Group-10">
+                    <g id="debris-5" transform="translate(322.703648, 102.339421)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#596574" xlink:href="#path-1"></use>
+                        <polygon id="Path-109" fill="#626670" mask="url(#mask-2)" points="41.5518307 48.8351902 13.3253632 20.3404677 22.8398548 -16.3380265 46.9701328 13.2443097"></polygon>
+                        <polygon id="Path-109" fill="#768896" mask="url(#mask-2)" points="-6.45476003 59.6242733 13.3253632 20.3404677 27.7771388 -15.8279925 -10.088746 18.0876241"></polygon>
+                        <path d="M13.6098651,21.0165323 L21.5410946,-2.17393391 L-6.88351378,10.5118311 L-14.6583557,58.8280308 C29.9894145,57.1206341 52.3132995,56.2669357 52.3132995,56.2669357 C52.3132995,56.2669357 39.4121547,44.5168012 13.6098651,21.0165323 Z" id="Path-108" fill="#FFF89C" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "coc-explorer": ">=0.22.7",
+    "coc-json": ">=1.4.1",
+    "coc-markdownlint": ">=1.12.4",
+    "coc-rust-analyzer": ">=0.61.0",
+    "coc-tsserver": ">=1.9.14",
+    "coc-zls": ">=0.0.1"
+  }
+}

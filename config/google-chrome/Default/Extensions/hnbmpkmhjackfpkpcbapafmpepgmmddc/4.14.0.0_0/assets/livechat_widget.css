@@ -1,0 +1,121 @@
+p {
+		padding: 10px;
+		text-align: center;
+		font-size: 16px;
+	}
+	#chatlio-widget .chatlio-widget {
+	  width: 100% !important;
+	}	
+	#chatlio-widget .chatlio-widget .chatlio-title-bar {
+	  pointer-events: none;
+	}
+	#chatlio-widget .chatlio-widget .chatlio-icon-minus {
+	  display: none;
+	}
+	#chatlio-widget .chatlio-widget .chatlio-icon-cross2 {
+	  display: none;
+	}
+	.center {
+		display: inline-block;
+		padding: 20px;
+	}
+	.outer {
+		padding: 10px;
+		text-align: center;
+	}
+	/* Chrome ext emoji fix */
+	.emojione:before {
+		 content: attr(alt) !important;
+	}
+	.emojione {
+		width: 20px !important;
+		height: 20px !important;
+		padding-bottom: 20px;
+	}
+
+	#hl-loader {
+	  margin: 10px auto 0;
+	  width: 70px;
+	  text-align: center;
+	}
+
+	#hl-loader > div {
+	  width: 18px;
+	  height: 18px;
+	  background-color: #333;
+
+	  border-radius: 100%;
+	  display: inline-block;
+	  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	}
+
+	#hl-loader .hl-bounce1 {
+	  -webkit-animation-delay: -0.32s;
+	  animation-delay: -0.32s;
+	}
+
+	#hl-loader .hl-bounce2 {
+	  -webkit-animation-delay: -0.16s;
+	  animation-delay: -0.16s;
+	}
+
+	@-webkit-keyframes sk-bouncedelay {
+	  0%, 80%, 100% { -webkit-transform: scale(0) }
+	  40% { -webkit-transform: scale(1.0) }
+	}
+
+	@keyframes sk-bouncedelay {
+	  0%, 80%, 100% { 
+	    -webkit-transform: scale(0);
+	    transform: scale(0);
+	  } 40% { 
+	    -webkit-transform: scale(1.0);
+	    transform: scale(1.0);
+	  }
+	}
+	.debug {
+		width: 100%;
+	}
+	.debug-container{
+		position: absolute;
+		margin: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 70%;
+		height: 60%;
+		background-color: rgba(0, 0, 0, 0.82);
+		color: white;
+		border-radius: 3px;
+		z-index: 99999;
+		padding: 10px;
+	}
+	.debug-btn {
+		padding: 10px 20px;
+		margin: 10px;
+		border: 3px solid white;
+		background-color: rgba(255, 255, 255, 0.15);
+		cursor: pointer;
+		font-size: 14px;
+		user-select: none;
+	}
+	.close-debug {
+		float: right;
+		font-size: 16px;
+		padding: 5px;
+		cursor: pointer;
+	}
+	.debug-whoami-item {
+		word-break: break-word;
+		padding: 4px;
+		display: block;
+	}
+	.debug-whoami-key {
+		color: rgba(179, 232, 245, 0.75);
+		display: block;
+	}
+	.debug-whoami-value {
+		color: rgba(255, 255, 255, 0.91);
+	}

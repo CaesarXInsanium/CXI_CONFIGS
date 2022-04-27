@@ -1,0 +1,37 @@
+{
+   "author": "Pay With Privacy, Inc.",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jquery.min.js", "js/Store.js", "js/api.js", "js/Message.js", "js/Entity.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "assets/icon16.png",
+         "32": "assets/icon32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Privacy"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/cookies.min.js", "js/jquery.min.js", "js/crypto.min.js", "js/PaymentCard.js", "js/Checkout.js", "js/Message.js", "js/Entity.js", "js/content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Protect yourself from fraud and identity theft with disposable credit card numbers for use online",
+   "homepage_url": "https://privacy.com",
+   "icons": {
+      "128": "assets/icon128.png",
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuicb0vnNUybPdQdlaB3jjgf+B5OfWJlVIc7350PzV/1PsgBhjYAvbMNGS5w8JQymby3NIocdmg/WP1w5mKkXxohh/nGTN3NYxfC1lAMmqB+2/MULjdeA4Cub+AXoBVVUUmXtVVuEHBCpC5cwjizAp5u2Brn++MOrbdichJFr/15PfHndJEDAKUMlK8p4d4e6LYRIU9Lu2sB4+FLcyNYDBIGL1pLIRiT0gC28ttS5ofD8MOC2/vl+HFRPwUt++EA/aNBrAVBlE67Q5xEoje+XOiq+5dq8b/38qYAXS7r65bavQWUoqNrGOl6NLR+CE8syb55opuNqKSkJS/7RRcf8sQIDAQAB",
+   "manifest_version": 2,
+   "name": "Pay by Privacy.com",
+   "permissions": [ "tabs", "*://*/*", "storage" ],
+   "short_name": "Pay by Privacy.com",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.0",
+   "web_accessible_resources": [ "interstitial.html", "assets/icon16.png" ]
+}

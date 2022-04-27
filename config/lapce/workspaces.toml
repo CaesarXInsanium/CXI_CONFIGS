@@ -1,0 +1,4 @@
+[[workspaces]]
+kind = "local"
+path = "/home/cxi/OpenSource/alacritty"
+last_open = 0

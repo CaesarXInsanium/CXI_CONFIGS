@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="13px" viewBox="0 0 11 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Gems" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-425.000000, -317.000000)" fill="#FFFFFF">
+            <path d="M426.790623,319.790623 L427.617505,320.414416 C429.313879,321.694147 431.661592,321.662527 433.322884,320.337573 L435,319 L433.662427,320.677116 C432.337473,322.338408 432.305853,324.686121 433.585584,326.382495 L434.209377,327.209377 L433.382495,326.585584 C431.686121,325.305853 429.338408,325.337473 427.677116,326.662427 L426,328 L427.337573,326.322884 C428.662527,324.661592 428.694147,322.313879 427.414416,320.617505 L426.790623,319.790623 Z" id="Rectangle-13" transform="translate(430.500000, 323.500000) rotate(-45.000000) translate(-430.500000, -323.500000) "></path>
+        </g>
+    </g>
+</svg>

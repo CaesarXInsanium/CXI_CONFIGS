@@ -1,0 +1,36 @@
+[global_config]
+  handle_size = 1
+  tab_position = bottom
+  title_at_bottom = True
+  title_hide_sizetext = True
+  title_use_system_font = False
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.83
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = Cascadia Code Pl 10
+    foreground_color = "#ffffff"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[CXI]]
+    visible_bell = True
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = Iosevka Term Curly Slab Medium 10
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

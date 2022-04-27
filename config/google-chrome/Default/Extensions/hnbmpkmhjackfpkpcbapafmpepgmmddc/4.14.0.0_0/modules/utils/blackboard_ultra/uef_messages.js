@@ -1,0 +1,1 @@
+globalThis.uefMessages=async function(request){if("webcam_restarted"===request.action)chrome.runtime.sendMessage({message:"focus_page"})};chrome.runtime.onMessage.addListener(uefMessages);

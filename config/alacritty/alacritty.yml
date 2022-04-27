@@ -1,0 +1,399 @@
+font:
+  normal:
+    family: JetBrainsMono NF
+    style: Regular
+
+size: 11
+      
+builtin_box_drawing: false
+window:
+  padding:
+    x: 1
+    y: 3
+  dynamic_padding: false
+
+window_opacity: 0.5
+
+schemes:
+pupil: &pupil
+  # Default colors
+  primary:
+    background: '0x070429'
+    foreground: '0xecdfee'
+
+  # Normal colors
+  normal:
+    black:   '0x070429'
+    red:     '0x372ad9'
+    green:   '0x6827d8'
+    yellow:  '0x9e39dc'
+    blue:    '0x9b63e3'
+    magenta: '0xde8f49'
+    cyan:    '0xcc8deb'
+    white:   '0xecdfee'
+
+  # Bright colors
+  bright:
+    black:   '0xa59ca6'
+    red:     '0x372ad9'
+    green:   '0x6827d8'
+    yellow:  '0x9e39dc'
+    blue:    '0x9b63e3'
+    magenta: '0xde8f49'
+    cyan:    '0xcc8deb'
+    white:   '0xecdfee'
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: '0x24283b'
+      foreground: '0xa9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x9699a8'
+
+    # Bright colors
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: '0x1a1b26'
+      foreground: '0xa9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x787c99'
+
+    # Bright colors
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
+  jahy: &jahy
+    primary:
+      background: '0x0b0414'
+      foreground: '0xbcb2be'
+
+  # Normal colors
+    normal:
+      black:   '0x1b003c'
+      red:     '0xaf1e45'
+      green:   '0xd42543'
+      yellow:  '0xe06052'
+      blue:    '0xe2bd5f'
+      magenta: '0xe39665'
+      cyan:    '0x2489d0'
+      white:   '0xbcb2be'
+
+  # Bright colors
+    bright:
+      black:   '0x837c85'
+      red:     '0xaf1e45'
+      green:   '0xd42543'
+      yellow:  '0xe06052'
+      blue:    '0xe2bd5f'
+      magenta: '0xe39665'
+      cyan:    '0x24bad0'
+      white:   '0xbcb2be'
+
+
+  ayu: &ayu
+    primary:
+      background: '0x0f1419'
+      foreground: '0xe6e1cf'
+
+    # Normal colors
+    normal:
+      black:   '0x000000'
+      red:     '0xf34a4a'
+      green:   '0xbae67e'
+      yellow:  '0xffee99'
+      blue:    '0x73d0ff'
+      magenta: '0xd4bfff'
+      cyan:    '0x83CEC6'
+      white:   '0xf2f2f2'
+
+  # Bright colors
+    bright:
+      black:   '0x737d87'
+      red:     '0xff3333'
+      green:   '0xc2d94c'
+      yellow:  '0xe7c547'
+      blue:    '0x59c2ff'
+      magenta: '0xb77ee0'
+      cyan:    '0x5ccfe6'
+      white:   '0xffffff'
+
+  ayu-dark: &ayu-dark
+    primary:
+      background: '#0A0E14'
+      foreground: '#B3B1AD'
+
+  # Normal colors
+    normal:
+      black: '#01060E'
+      red: '#EA6C73'
+      green: '#91B362'
+      yellow: '#F9AF4F'
+      blue: '#53BDFA'
+      magenta: '#FAE994'
+      cyan: '#90E1C6'
+      white: '#C7C7C7'
+
+  # Bright colors
+    bright:
+      black: '#686868'
+      red: '#F07178'
+      green: '#C2D94C'
+      yellow: '#FFB454'
+      blue: '#59C2FF'
+      magenta: '#FFEE99'
+      cyan: '#95E6CB'
+      white: '#FFFFFF'
+  embark: &embark
+    primary:
+      background: '0x1e1c31'
+      foreground: '0xcbe3e7'
+    cursor:
+      text: '0x1e1c31'
+      cursor: '0xa1efd3'
+    normal:
+      black: '0x1e1c31'
+      red: '0xf48fb1'
+      green: '0xa1efd3'
+      yellow: '0xffe6b3'
+      blue: '0x91ddff'
+      magenta: '0xd4bfff'
+      cyan: '0x87dfeb'
+      white: '0xcbe3e7'
+    bright:
+      black: '0x585273'
+      red: '0xf02e6e'
+      green: '0x62d196'
+      yellow: '0xf2b482'
+      blue: '0x65b2ff'
+      magenta: '0xa37acc'
+      cyan: '0x63f2f1'
+      white: '0x8a889d'
+  pink: &catppuccino
+    # Default colors
+    primary:
+      background: '0x191624'
+      foreground: '0xddd1df'
+
+    # Normal colors
+    normal:
+      black:   '0x191624'
+      red:     '0xaf3ece'
+      green:   '0xd86699'
+      yellow:  '0x7191db'
+      blue:    '0xa369d9'
+      magenta: '0x9995e4'
+      cyan:    '0xda99e5'
+      white:   '0xddd1df'
+
+    # Bright colors
+    bright:
+      black:   '0x9a929c'
+      red:     '0xaf3ece'
+      green:   '0xd86699'
+      yellow:  '0x7191db'
+      blue:    '0xa369d9'
+      magenta: '0x9995e4'
+      cyan:    '0xda99e5'
+      white:   '0xddd1df'
+  wias: &wias
+  # Default colors
+      primary:
+        background: '0x1e1b2e'
+        foreground: '0xece2f0'
+
+  # Normal colors
+      normal:
+        black:   '0x2a2640'
+        red:     '0xf07bd4'
+        green:   '0x76efac'
+        yellow:  '0x978cf2'
+        blue:    '0xcd9df4'
+        magenta: '0xd9abf5'
+        cyan:    '0x93ffff'
+        white:   '0xece2f0'
+
+  # Bright colors
+      bright:
+        black:   '0xa59ea8'
+        red:     '0xf07bd4'
+        green:   '0x8276ef'
+        yellow:  '0x978cf2'
+        blue:    '0xcd9df4'
+        magenta: '0xd9abf5'
+        cyan:    '0x93ffff'
+        white:   '0xece2f0'
+grren: &grren
+  # Default colors
+  primary:
+    background: '0x080e0e'
+    foreground: '0xa6d7dd'
+
+  # Normal colors
+  normal:
+    black:   '0x0f1718'
+    red:     '0x162021'
+    green:   '0x243234'
+    yellow:  '0x384b4d'
+    blue:    '0x506a6d'
+    magenta: '0x6d8f93'
+    cyan:    '0x8fbac0'
+    white:   '0xc3e9ee'
+
+  # Bright colors
+  bright:
+    black:   '0x72b0b7'
+    red:     '0xd598c5'
+    green:   '0x97935d'
+    yellow:  '0xde836e'
+    blue:    '0xd6968a'
+    magenta: '0x5ba579'
+    cyan:    '0x86c39d'
+    white:   '0xcac68e'
+vampires: &vampires
+  # Default colors
+  primary:
+    background: '0x0d070b'
+    foreground: '0xd8abc3'
+
+  # Normal colors
+  normal:
+    black:   '0x0d070b'
+    red:     '0xa51d28'
+    green:   '0x93b21f'
+    yellow:  '0xd99f2d'
+    blue:    '0x5524cb'
+    magenta: '0x8a25d1'
+    cyan:    '0x51e0c0'
+    white:   '0xd8abc3'
+
+  # Bright colors
+  bright:
+    black:   '0x977788'
+    red:     '0xa51d28'
+    green:   '0xb21f46'
+    yellow:  '0xd92d4c'
+    blue:    '0xcb2446'
+    magenta: '0xd1257d'
+    cyan:    '0xe05163'
+    white:   '0xd8abc3'
+nightsky: &nightsky
+  # Default colors
+  primary:
+    background: '0x031428'
+    foreground: '0xcfe2ea'
+
+  # Normal colors
+  normal:
+    black:   '0x020d1b'
+    red:     '0xc322b1'
+    green:   '0x25d599'
+    yellow:  '0x9cde45'
+    blue:    '0x5181e0'
+    magenta: '0xe076e6'
+    cyan:    '0x90ebdd'
+    white:   '0xcfe2ea'
+
+  # Bright colors
+  bright:
+    black:   '0x909ea3'
+    red:     '0x2287c3'
+    green:   '0x2596d5'
+    yellow:  '0x459ede'
+    blue:    '0x51ade0'
+    magenta: '0x76b5e6'
+    cyan:    '0x90cfeb'
+    white:   '0xcfe2ea'
+PinkSmoke: &PinkSmoke
+  # Default colors
+  primary:
+    background: '0x09070c'
+    foreground: '0xaab9bd'
+
+  # Normal colors
+  normal:
+    black:   '0x09070c'
+    red:     '0xa21c36'
+    green:   '0x7cb51f'
+    yellow:  '0x4422c0'
+    blue:    '0xdfb34e'
+    magenta: '0xd425b0'
+    cyan:    '0x4cdfd1'
+    white:   '0xaab9bd'
+
+  # Bright colors
+  bright:
+    black:   '0x768184'
+    red:     '0x611ca2'
+    green:   '0xb51f6b'
+    yellow:  '0xc02284'
+    blue:    '0xdf4e89'
+    magenta: '0xd4258c'
+    cyan:    '0xdf4c8b'
+    white:   '0xaab9bd'
+
+  night-owl: &night-owl
+    primary:
+      background: '0x011627'
+      foreground: '0xd6deeb'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+    cursor:
+      text: '0xffffff'
+      cursor: '0x7e57c2'
+
+  # Normal colors
+    normal:
+      black:   '0x000000'
+      red:     '0xef5350'
+      green:   '0x22da6e'
+      yellow:  '0xaddb67'
+      blue:    '0x82aaff'
+      magenta: '0xc792ea'
+      cyan:    '0x21c7a8'
+      white:   '0xffffff'
+  
+  # Bright colors
+    bright:
+      black:   '0x575656'
+      red:     '0xef5350'
+      green:   '0x22da6e'
+      yellow:  '0xffeb95'
+      blue:    '0x82aaff'
+      magenta: '0xc792ea'
+      cyan:    '0x7fdbca'
+      white:   '0xffffff'
+colors: *ayu

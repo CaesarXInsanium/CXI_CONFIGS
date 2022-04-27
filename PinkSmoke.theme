@@ -1,0 +1,11 @@
+['xfce4terminal-colorscheme_generator.py', 'PinkSmoke']
+[Scheme]
+Name=PinkSmoke
+
+ColorForeground=#aab9bd
+ColorBackground=#09070c
+ColorCursor=#aab9bd
+TabActivityColor=#4422c0
+ColorPalette=#09070c;#a21c36;#7cb51f;#4422c0;#dfb34e;#d425b0;#4cdfd1;#aab9bd;#768184;#611ca2;#b51f6b;#c02284;#df4e89;#d4258c;#df4c8b;#aab9bd
+ColorBold=#a21c36
+ColorBoldUseDefault=FALSE

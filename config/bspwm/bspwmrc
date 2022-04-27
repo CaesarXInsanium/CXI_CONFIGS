@@ -1,0 +1,35 @@
+#! /bin/sh
+pgrep -x sxhkd > /dev/null || sxhkd &
+# 
+bspc monitor -d 1 2 3 4 5 6 7 8 9 
+
+bspc config border_width         1
+bspc config normal_border_color		"#ff7d87"
+bspc config focused_border_color 	"#66FFFF"
+bspc config window_gap          3
+bspc config top_padding 25
+
+bspc config focus_follows_pointer true
+bspc config pointer_modifier
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+# xprop |awk '/WM_CLASS/{print $4}'
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a Xfce4-appfinder state=floating follow=on
+# bspc rule -a Emacs state=tiled
+# Autostart Programs
+xrandr -r 165.00
+nitrogen ---set-zoom-fill --random ~/Images/Wallpapers  
+/usr/bin/gnome-keyring-daemon --start
+pgrep -x xfce4-panel > /dev/null || xfce4-panel &
+pgrep -x picom > /dev/null || picom --experimental-backends &
+## redshift -l 41.50:87.39 
+
+##killall polybar
+##polybar example

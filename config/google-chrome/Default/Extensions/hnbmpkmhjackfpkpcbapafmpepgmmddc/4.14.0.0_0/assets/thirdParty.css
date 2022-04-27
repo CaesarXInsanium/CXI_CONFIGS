@@ -1,0 +1,96 @@
+/* Proctoring Pop-up */
+.popup {
+	position: fixed;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+	width: 500px;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12);
+	z-index: 100001;
+	font-family: 'Open Sans', Calibri, Tahoma, sans-serif;
+}
+.popup-top {
+	padding: 15px 10px 10px 10px;
+}
+.popup-top .title {
+	margin: 10px 10px 10px 45px;
+	font-size: 20px;
+}
+.popup-logo {
+	width: 26px;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+.popup hr {
+	width: 90%;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 0px auto;
+}
+.popup-body {
+	margin: 10px 20px;
+}
+.popup-body > span {
+	font-size: 14px;
+	line-height: 1.4;
+}
+.btn-container {
+	position: relative;
+	margin: 20px 0px;
+}
+.hl-action {
+	display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0;
+    color: white;
+    background: #2196f3;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 4px 20px;
+    cursor: pointer;
+    outline: 0 !important;
+    transition: box-shadow 0.15s ease-in-out;
+    font-family: inherit;
+}
+.hl-action:hover {
+	box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.2);
+	transition: box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+	-webkit-transition: box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.hl-action:active {
+	box-shadow: none;
+	opacity: 0.85;
+}
+#hl-overlay {
+	opacity: 0.15;
+	background: #000;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+.popup-close {
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+    right: 35px;
+    margin: 6px 0px;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+.popup-close:hover, .popup-close:active {
+	text-decoration: underline;
+}
+
+/* WebAssign */
+.modal-hidden {
+	visibility: hidden !important;
+}

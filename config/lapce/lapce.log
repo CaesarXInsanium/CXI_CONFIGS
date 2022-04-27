@@ -1,0 +1,1 @@
+[2022-03-21][19:36:44][piet_wgpu][INFO] AdapterInfo { name: "Intel(R) UHD Graphics 630 (CML GT2)", vendor: 32902, device: 39877, device_type: IntegratedGpu, backend: Vulkan }

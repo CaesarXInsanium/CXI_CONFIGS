@@ -1,0 +1,1 @@
+chrome.extension=chrome.runtime;global.$=require("../jquery-3.1.0.min");require("../blackboard-ultra");describe("Focus Chat",(()=>{it("Can send message to focus the chat",(()=>{focusChat();expect(chrome.runtime.sendMessage).toHaveBeenCalledWith({message:"focus_page"})}))}));

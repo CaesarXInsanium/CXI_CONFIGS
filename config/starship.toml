@@ -1,0 +1,156 @@
+## FIRST LINE/ROW: Info & Status
+add_newline = false
+command_timeout=1000
+
+format = """
+$directory$character
+"""
+right_format="""
+$all
+$cmd_duration
+"""
+
+
+[username]
+format = "[Ω]($style)"
+show_always = false
+style_root = "bold red"
+style_user = "bold cyan"
+
+# Second param
+[hostname]
+disabled = false
+format = "[$hostname]($style)∈"
+ssh_only = true
+style = "bold dimmed red"
+trim_at = "-"
+
+[directory]
+style = "cyan"
+repo_root_style = "bold italic cyan"
+truncate_to_repo = true
+truncation_length = 3
+truncation_symbol = "√"
+read_only = "ℜ"
+home_symbol="~"
+
+[cmd_duration]
+disabled=false
+min_time_to_notify=1_000
+format="[$duration]($style)"
+
+[line_break]
+disabled = false
+
+[character]
+format="$symbol"
+error_symbol = "[❯❯ ](bold red)"
+success_symbol = "[❯❯ ](bold green)"
+
+
+# Fourth param
+[sudo]
+disabled = true
+
+# Before all the version info (python, nodejs, php, etc.)
+[git_branch]
+format="[$symbol$branch]($style)"
+symbol = " "
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+deleted = "x"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+style = "white"
+
+
+## SECOND LINE/ROW: Prompt
+# Somethere at the beginning
+
+# Prompt: optional param 1
+[time]
+disabled = true
+format = " 🕙 $time($style)\n"
+style = "bright-white"
+time_format = "%T"
+
+# Prompt: param 2
+# SYMBOLS
+[shell]
+fish_indicator = ""
+powershell_indicator = "_"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = false
+
+[status]
+disabled = false
+format = "[$status]($style)"
+map_symbol = true
+pipestatus = true
+symbol = "🔴"
+
+[aws]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[nim]
+symbol = " "
+disabled=true
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+disabled=false
+format = "[$virtualenv]($style)"
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+disabled=false
+format="[$symbol]($style)"
+
+[swift]
+symbol = "ﯣ"

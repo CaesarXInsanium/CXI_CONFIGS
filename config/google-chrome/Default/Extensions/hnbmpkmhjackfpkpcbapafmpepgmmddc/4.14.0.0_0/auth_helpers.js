@@ -1,0 +1,1 @@
+const getUsat=()=>new Promise(((resolve,reject)=>{chrome.storage.local.get(null,(storage=>{if(storage.usat)resolve(storage.usat)}))}));

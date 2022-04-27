@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="21px" viewBox="0 0 25 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>debris-12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7.98891129 0 0 14.0636268 12.8575479 20.9163912 24.2534022 2.84112079"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1860.000000, -2329.000000)">
+            <g id="Group-26" transform="translate(1806.000000, 2019.000000)">
+                <g id="Group-10">
+                    <g id="debris-12" transform="translate(54.000000, 310.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#596574" xlink:href="#path-1"></use>
+                        <polygon id="Path-108" fill="#FFF89C" mask="url(#mask-2)" points="34.7366224 -4.84615385 5.39898277 -2.24132589 14.4594814 29.2358594"></polygon>
+                        <polygon id="Path-109" fill="#474E5F" mask="url(#mask-2)" points="6.50989163 -0.88656851 14.8500504 27.4126352 -13.4466356 27.9142879"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

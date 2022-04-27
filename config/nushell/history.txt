@@ -1,0 +1,5 @@
+rip .config/nushell/*
+ls
+clear
+ls
+clear

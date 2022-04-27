@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="46px" viewBox="0 0 51 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>debris-10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="44.0981942 45.1206437 22.3481094 43.6611653 0.2462459 32.5462999 15.5128059 0.0223158862 50.281788 6.60306562"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1974.000000, -2390.000000)">
+            <g id="Group-26" transform="translate(1806.000000, 2019.000000)">
+                <g id="Group-10">
+                    <g id="debris-10" transform="translate(168.000000, 371.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#596574" xlink:href="#path-1"></use>
+                        <polygon id="Path-108" fill="#FFF89C" mask="url(#mask-2)" points="51.9648438 5.69140625 -5.9453125 37.6660156 1.78407574 -3.98363088 42.0132164 -11.6716421"></polygon>
+                        <polygon id="Path-109" fill="#D2D1BF" mask="url(#mask-2)" points="-6.08984375 35.0683594 52.1992188 5.4140625 61.3261719 55.5605469"></polygon>
+                        <polygon id="Path-109" fill="#FDF9F3" mask="url(#mask-2)" points="15.0136719 52.3847656 50.3300781 5.29296875 61.3261719 55.5605469"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

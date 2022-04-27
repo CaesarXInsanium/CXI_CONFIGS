@@ -1,0 +1,246 @@
+{
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.fontFamily": "Iosevka Term Curly",
+    "editor.fontSize": 15,  
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "editor.fontWeight": 400,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "",
+    "rust-analyzer.inlayHints.smallerHints": false,
+    "rust-analyzer.inlayHints.parameterHints": true,
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.cargo.autoreload": true,
+    "rust-analyzer.checkOnSave.enable": true,
+    "rust-analyzer.inlayHints.maxLength": 25,
+    "python.languageServer": "Jedi",
+    "python.defaultInterpreterPath": "/home/cxi/CXI_env/bin/python",
+    "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+       
+        "[Tomorrow Night Blue]": {
+            "comments": {
+            "foreground": "#23deff91",
+            "fontStyle": "italic"
+        },
+        "functions": {
+            "foreground": "#19bba8",
+            "fontStyle": "italic bold"
+        },
+        "keywords": {
+            "foreground": "#cfcc8a",
+            "fontStyle": "italic"
+        },
+        "numbers": {
+            "foreground": "#EE8728",
+            "fontStyle": "bold"
+        },
+        "strings": {
+            "foreground": "#23deffa8",
+            "fontStyle": "italic"
+        },
+        "types": {
+            "foreground": "#57ADFF"
+        },
+        "variables": {
+            "foreground": "#8EF298",
+            "fontStyle": "italic"
+        },
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#00B7FF"
+                }
+            },
+            {
+                "scope": "meta.attribute.rust",
+                "settings": {
+                    "foreground": "#CD84FF",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "keyword.other.rust",
+                "settings": {
+                    "foreground": "#CD84FF",
+                }
+            },
+
+            {
+                "scope": "entity.name.type",
+                "settings":{
+                    "foreground": "#57ADFF",
+                    "fontStyle": " "
+                }
+            },
+            {
+                "scope": "meta.class",
+                "settings":{
+                    "foreground": "#CD84FF",
+                    "fontStyle": "bold "
+                }
+            },
+            {
+                "scope": "source.python",
+                "settings": {
+                    "foreground": "#99f8f8",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.function-call",
+                "settings": {
+                    "foreground": "#e7b6ff",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+        
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Nord]": {
+            "activityBar.activeBackground": "#ff0000",
+            "editor.background": "#101829",
+            "editor.foreground": "#D4E0F4",
+            "editorLineNumber.activeForeground": "#5f69d8",
+            "editorLineNumber.foreground": "#9a9fd1",
+        },
+        "[Tomorrow Night Blue]": {
+            "activityBar.activeBackground": "#020224",
+            "activityBar.activeFocusBorder": "#ff0000",
+            "activityBar.background": "#020224",
+            "activityBar.foreground": "#EE8728",
+            "activityBar.border": "#00B7FF",
+            "activityBar.activeBorder": "#FF58DF",
+            "activityBar.dropBorder": "#ff0000",
+            "activityBar.inactiveForeground": "#A613F2",
+            
+            "activityBarBadge.background": "#ff000a",
+            "activityBarBadge.foreground": "#C5D1EA",
+
+            "badge.background": "#EE8728",
+            "badge.foreground": "#000000",
+            
+            "button.background": "#1f1e33",
+            "button.foreground": "#ffffffcc",
+            "button.hoverBackground": "#7e57c2",
+
+            "dropdown.background": "#020224",
+            "dropdown.border": "#00B7FF",
+            "dropdown.foreground": "#00B7FF",
+
+            "editor.background": "#020224",
+            "editor.foreground": "#C5D1EA",
+            "editor.findMatchBackground": "#5f7e9779",
+            "editor.findMatchHighlightBackground": "#1085bb5d",
+            "editor.foldBackground": "#030229",
+            "editor.hoverHighlightBackground": "#7e57c25a",
+            "editor.inactiveSelectionBackground": "#7e57c25a",
+            "editor.lineHighlightBackground": "#1c1950",
+            "editor.lineHighlightBorder": "#13eeeb",
+            "editor.rangeHighlightBackground": "#7e57c25a",
+            "editor.selectionBackground": "#1d3b53",
+            "editor.selectionHighlightBackground": "#5f7e9779",
+            "editor.wordHighlightBackground": "#f6bbe533",
+            "editor.wordHighlightStrongBackground": "#e2a2f433",
+
+            "sideBar.background": "#020224",
+            "sideBar.border": "#00B7FF",
+            "sideBar.dropBackground": "#ff0000",
+            "sideBar.foreground": "#00B7FF",
+            "sideBarSectionHeader.background": "#020224",
+            "sideBarSectionHeader.foreground": "#13eeeb",
+            "sideBarTitle.foreground": "#13eeeb",
+
+            "minimap.background": "#070224",
+
+            "tab.activeBackground": "#020224",
+            "tab.activeBorder": "#FFF997",
+            "tab.activeForeground": "#d2dee7",
+            "tab.border": "#13eeeb",
+            "tab.hoverBackground": "#1c1950",
+            "tab.hoverBorder": "#38FF23",
+            "tab.inactiveBackground": "#01111d",
+            "tab.inactiveForeground": "#FFF997",
+            "tab.unfocusedActiveBorder": "#262a39",
+            "tab.unfocusedActiveForeground": "#5f7e97",
+            "tab.unfocusedInactiveForeground": "#5f7e97",
+
+            "terminal.background": "#020224",
+            "terminal.foreground": "#c5d1ea",
+            "terminal.selectionBackground": "#1b90dd4d",
+            "terminal.ansiBlack": "#FF3729",
+            "terminal.ansiBrightBlack": "#FF3729",
+            "terminal.ansiRed": "#ff58df",
+            "terminal.ansiBrightRed": "#ff58df",
+            "terminal.ansiGreen": "#00b7ff",
+            "terminal.ansiBrightGreen": "#00b7ff",
+            "terminal.ansiYellow": "#fff997",
+            "terminal.ansiBrightYellow": "#fff997",
+            "terminal.ansiBlue": "#a613f2",
+            "terminal.ansiBrightBlue": "#a613f2",
+            "terminal.ansiMagenta": "#ee8728",
+            "terminal.ansiBrightMagenta": "#ee8728",
+            "terminal.ansiCyan": "#00ffe3",
+            "terminal.ansiBrightCyan": "#00ffe3",
+            "terminal.ansiWhite": "#38ff23",
+            "terminal.ansiBrightWhite": "#38ff23",
+    
+        }
+    },
+    "editor.minimap.enabled": false,
+    "cSpell.userWords": [
+        "CIFS",
+        "LDAP",
+        "SNMP",
+        "bootloader",
+        "flushdns",
+        "ipconfig",
+        "keyloggers",
+        "keypress",
+        "libqtile",
+        "loggins",
+        "wannacry"
+    ],
+    "workbench.colorTheme": "Mayukai Reversal",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.c": "default"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "jupyter.askForKernelRestart": false,
+    "python.pythonPath": "/usr/bin/python",
+    "nebulaOni.update.restoreConfiguration": {
+        "themeSettings": {
+            "background": "Grey",
+            "main": "Bumblebee",
+            "highlight": "Ultra Violet",
+            "focusBorder": "ON",
+            "fontStyle": "Italic",
+            "comments": "Dark Violet",
+            "favorite": "OFF"
+        },
+        "favoriteSettings": {
+            "background": "Glacial Blue",
+            "main": "Sakura",
+            "highlight": "Ultra Violet",
+            "focusBorder": "ON",
+            "fontStyle": "Italic",
+            "comments": "Dark Magenta",
+            "favorite": "Nebula Oni (Pegasus)"
+        }
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "notebook.lineNumbers": "on",
+    "clangd.path": "/home/cxi/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "window.zoomLevel": -1
+}

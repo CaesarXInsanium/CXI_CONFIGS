@@ -1,0 +1,5 @@
+2022/03/18-18:10:55.954 3f004 Creating DB /home/cxi/.config/google-chrome/Default/Sync Data/LevelDB since it was missing.
+2022/03/18-18:10:55.957 3f004 Reusing MANIFEST /home/cxi/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/03/19-18:57:29.381 4abb9 Level-0 table #5: started
+2022/03/19-18:57:29.385 4abb9 Level-0 table #5: 182371 bytes OK
+2022/03/19-18:57:29.386 4abb9 Delete type=0 #3

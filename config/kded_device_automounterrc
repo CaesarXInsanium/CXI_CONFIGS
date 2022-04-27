@@ -1,0 +1,21 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=600.0 MiB Internal Drive (nvme0n1p1)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p3]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=441.2 GiB Internal Drive (nvme0n1p3)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Extra
+LastSeenMounted=true

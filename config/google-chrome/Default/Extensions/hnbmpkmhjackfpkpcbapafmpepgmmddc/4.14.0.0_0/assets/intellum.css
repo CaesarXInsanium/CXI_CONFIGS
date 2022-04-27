@@ -1,0 +1,99 @@
+/*************** Launch Page ****************/
+
+/***** Loader *****/
+
+#hl-loader {
+	margin: 100px auto 0;
+	width: 70px;
+	text-align: center;
+}
+#hl-loader > div {
+	width: 18px;
+	height: 18px;
+	background-color: #333;
+
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+#hl-loader .hl-bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+#hl-loader .hl-bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 40% {
+		  -webkit-transform: scale(1.0);
+		  transform: scale(1.0);
+	  }
+}
+
+/***** Launch Proctoring *****/
+
+#launch-proctoring {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	user-select: none;
+	font-weight: bold;
+}
+.hl-btn-ready {
+	background-color: #2196f3;
+	color: #fff;
+	padding: 8px 20px;
+	font-size: 18px;
+	font-family: inherit;
+	cursor: pointer;
+	border-width: 0;
+	border-color: transparent;
+	border-radius: 5px;
+	transition: box-shadow 0.3s ease-in-out;
+	font-weight: 300;
+	line-height: normal;
+}
+.hl-btn-ready:hover {
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.16);
+	opacity: 0.85;
+	outline: 0 !important;
+	-webkit-transition: opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.4s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+	transition: opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.4s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+	transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.4s cubic-bezier(0.02, 0.01, 0.47, 1);
+	transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.4s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.hl-btn-ready:active{
+	opacity: 0.4;
+}
+.hl-btn-ready:after {
+	transition: box-shadow 0.3s ease-in-out;
+}
+.hl-btn-waiting {
+	background-color: #dadada;
+	pointer-events: none;
+	user-select: none;
+}
+
+/*************** Questions Page ****************/
+
+
+/***** Browser Guard *****/
+.bottom-spacer {
+	height: 20px;
+}
+
+/*** Intellum Page Alters ****/
+#calculator-trigger {
+	margin-bottom: 60px !important;
+}
+#chat-widget-container {
+	margin-right: 20px !important;
+}

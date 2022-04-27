@@ -1,0 +1,5 @@
+alacritty
+htop
+picom --experimental-backends
+killall picom
+picom --experimental-backends
