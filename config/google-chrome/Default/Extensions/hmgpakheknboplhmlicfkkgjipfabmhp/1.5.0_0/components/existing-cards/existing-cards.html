@@ -1,3 +1,0 @@
-<div class="existing-card" ng-click="onSelectCard(card)" ng-repeat="card in cards"><privacy-card card="card" small="true"></privacy-card><div class="details"><p class="-strong"><span class="-unused" ng-show="!card.hostname &amp;&amp; card.unused">Unused</span>{{ card.memo || card.hostname || 'Unused Card' }}</p><p>Created {{ card.created | date : 'mediumDate' }}</p><p>{{ card.spendLimit > 0 ? '$' + card.spendLimit : 'No spend limit' }}
-{{ card.spendLimit ? card.spendLimitDuration : null | timePeriodToNoun }}
-{{ card.spendLimit ? ' limit' : null }}</p><p>${{ card.spentThisMonth }} spent this month</p></div></div>

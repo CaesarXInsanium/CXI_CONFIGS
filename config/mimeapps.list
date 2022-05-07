@@ -89,3 +89,4 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoff
 application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
 application/vnd.ms-excel=libreoffice-calc.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+application/zip=xarchiver.desktop;

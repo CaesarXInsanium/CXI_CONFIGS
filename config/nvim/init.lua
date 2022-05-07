@@ -21,4 +21,4 @@ require "user.alpha"
 
 require "user.neovide"
 
-require'colorizer'.setup()
+require 'colorizer'.setup()

@@ -12,6 +12,7 @@
 - Iosevka
 - Victor Mono
 - Cascadia Code
+- JetBrainsMono
 - nerd fonts...
 
 ## Window Managers and Utilities
@@ -75,6 +76,12 @@
 - bat
 - fd-find: fd
 
+# C
+
+- #include <glfw/glfw3.h>
+- #include <raylib.h>
+- BEAR: Build compilation database: https://github.com/rizsotto/Bear
+
 ## Arch Based
 
 - paru
@@ -105,3 +112,4 @@
   - minecraft?
 - lxappearace
 - ristretto
+- cava

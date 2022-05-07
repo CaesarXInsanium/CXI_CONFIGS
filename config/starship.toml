@@ -3,7 +3,7 @@ add_newline = false
 command_timeout=1000
 
 format = """
-$directory$character
+$python$directory$character
 """
 right_format="""
 $all
@@ -77,9 +77,12 @@ time_format = "%T"
 # Prompt: param 2
 # SYMBOLS
 [shell]
+zsh_indicator="zsh"
+bash_indicator="bsh"
 fish_indicator = ""
+nu_indicator="nu"
 powershell_indicator = "_"
-unknown_indicator = "mystery shell"
+unknown_indicator = "?shell"
 style = "cyan bold"
 disabled = false
 
@@ -142,7 +145,7 @@ symbol = " "
 [python]
 symbol = " "
 disabled=false
-format = "[$virtualenv]($style)"
+format = "[$virtualenv]($style) "
 
 [ruby]
 symbol = " "

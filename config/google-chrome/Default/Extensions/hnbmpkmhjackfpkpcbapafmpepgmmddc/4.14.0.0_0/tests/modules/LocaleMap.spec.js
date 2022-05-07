@@ -1,1 +1,0 @@
-describe("LocaleMap",(()=>{beforeAll((()=>{globalThis.localeMap=void 0;require("../../modules/LocaleMap")}));it("can get locale based on key",(()=>{let locale=globalThis.localeMap.init("es");expect(locale._name).toBe("Spanish (Spain)")}));it("can set default locale",(()=>{let locale=globalThis.localeMap.init();expect(locale._name).toBe("English (United States)")}))}));

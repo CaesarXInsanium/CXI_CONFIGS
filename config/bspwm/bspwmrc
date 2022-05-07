@@ -24,12 +24,10 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Xfce4-appfinder state=floating follow=on
 # bspc rule -a Emacs state=tiled
 # Autostart Programs
-xrandr -r 165.00
-nitrogen ---set-zoom-fill --random ~/Images/Wallpapers  
+xrandr -r 165.00 
+#nitrogen --set-zoom-fill --random ~/Images/Wallpapers  
+nitrogen --restore
 /usr/bin/gnome-keyring-daemon --start
 pgrep -x xfce4-panel > /dev/null || xfce4-panel &
 pgrep -x picom > /dev/null || picom --experimental-backends &
-## redshift -l 41.50:87.39 
 
-##killall polybar
-##polybar example

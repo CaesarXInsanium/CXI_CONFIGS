@@ -4,7 +4,7 @@ alias reload="source /home/cxi/.config/fish/config.fish"
 alias reboot='systemctl reboot'
 
 # Coreutils ALiases
-alias ls="exa -l --git --icons"
+alias ls="exa -l -b -s modified --group-directories-first --git --icons"
 alias la="exa -la "
 alias lh="exa -la .*"
 
@@ -38,6 +38,7 @@ alias ewez="nvim ~/.config/wezterm/wezterm.lua"
 
 alias efstab="doas nvim /etc/fstab"
 alias ersr="nvim ~/.local/bin/rsr" 
+alias window_name="xprop |awk '/WM_CLASS/{print $4}'"
 
 # One Letter Aliases
 alias g="git"

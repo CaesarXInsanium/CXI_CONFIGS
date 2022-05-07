@@ -45,6 +45,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
+  use "BurntSushi/ripgrep"
 
   -- PLUGINS --
   use "windwp/nvim-autopairs"
@@ -58,13 +59,13 @@ return packer.startup(function(use)
   -- Software Development
   --use 'folke/todo-comments.nvim'
   use 'numToStr/Comment.nvim'
-  --use 'ggandor/lightspeed.nvim' -- TODO: learn how to use these plugins
+  use 'ggandor/lightspeed.nvim' -- TODO: learn how to use these plugins
 
   -- Languages
   use 'simrat39/rust-tools.nvim'
   use 'Saecki/crates.nvim'
-  use 'dag/vim-fish'
-  use 'LnL7/vim-nix'
+--  use 'dag/vim-fish'
+--  use 'LnL7/vim-nix'
 
   -- CMP
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -75,7 +76,6 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lua"
   use 'lukas-reineke/cmp-rg'
   use 'kdheepak/cmp-latex-symbols'
-  use { 'tzachar/cmp-fuzzy-path', requires = { 'hrsh7th/nvim-cmp', 'tzachar/fuzzy.nvim' } }
   use {
     "mtoohey31/cmp-fish",
     ft = 'fish'
@@ -84,11 +84,12 @@ return packer.startup(function(use)
   -- Snippets
   use 'L3MON4D3/LuaSnip'
 
-
   -- Telescope
-  use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
-  use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+  use {
+  "nvim-telescope/telescope.nvim",
+    requires = {{ 'nvim-lua/plenary.nvim'}}
+  }
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -96,10 +97,10 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
+
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
-
 
   -- Session
   use {
@@ -117,12 +118,20 @@ return packer.startup(function(use)
   use 'marko-cerovac/material.nvim'
   use 'EdenEast/nightfox.nvim'
   use 'Mofiqul/dracula.nvim'
-  use 'yashguptaz/calvera-dark.nvim'
   use 'bluz71/vim-moonfly-colors'
   use 'navarasu/onedark.nvim'
   use 'shaunsingh/moonlight.nvim'
   use 'CaesarXInsanium/calveradark.nvim'
-
+  use 'projekt0n/github-nvim-theme'
+  use 'https://github.com/j4d3nw/gemstones.nvim'
+  use 'https://github.com/ray-x/starry.nvim'
+  use 'https://github.com/shaunsingh/nord.nvim'
+  use 'https://github.com/rktjmp/lush.nvim'
+  use 'https://github.com/heraldofsolace/nisha-vim'
+  use 'https://github.com/AhmedAbdulrahman/aylin.vim'
+  use 'https://github.com/lighthaus-theme/vim-lighthaus'
+  use 'https://github.com/rmehri01/onenord.nvim'
+  use 'https://github.com/sainnhe/everforest.git'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

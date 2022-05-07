@@ -1,1 +1,0 @@
-var backgroundPageConnection=chrome.runtime.connect({name:"devtools-page"});

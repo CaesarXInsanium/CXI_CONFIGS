@@ -1,1 +1,0 @@
-module.exports={transformIgnorePatterns:["blackboard-ultra.js","/blackboard_ultra/","/exam_tools/"],setupFilesAfterEnv:["./jest.setup.js"]};

@@ -1,0 +1,11 @@
+2022/05/03-11:23:33.011 10de0d Reusing MANIFEST /EXTRA/RootOpenSource/CXI_CONFIGS/config/Atom/Local Storage/leveldb/MANIFEST-000001
+2022/05/03-11:23:33.012 10de0d Recovering log #3
+2022/05/03-11:23:33.012 10de0d Reusing old log /EXTRA/RootOpenSource/CXI_CONFIGS/config/Atom/Local Storage/leveldb/000003.log 
+2022/05/03-11:25:33.835 10de17 Level-0 table #5: started
+2022/05/03-11:25:33.840 10de17 Level-0 table #5: 51979 bytes OK
+2022/05/03-11:25:33.842 10de17 Delete type=0 #3
+2022/05/03-11:26:33.885 10de21 Level-0 table #7: started
+2022/05/03-11:26:33.887 10de21 Level-0 table #7: 47500 bytes OK
+2022/05/03-11:26:33.889 10de21 Delete type=0 #4
+2022/05/03-11:35:16.965 11851c Level-0 table #9: started
+2022/05/03-11:35:16.988 11851c Level-0 table #9: 95961 bytes OK

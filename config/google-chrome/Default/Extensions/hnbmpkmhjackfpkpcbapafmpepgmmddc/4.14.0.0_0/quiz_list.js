@@ -1,1 +1,0 @@
-void 0;chrome.runtime.sendMessage({message:"disable_browser_guard"});

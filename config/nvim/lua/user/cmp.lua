@@ -1,5 +1,3 @@
--- DEPRACATED
--- TODO: delete this shit
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then
   return
@@ -61,7 +59,7 @@ cmp.setup {
         luasnip = "[LuaSnippet]",
         buffer = "[Buffer]",
         path = "[Path]",
- --       fuzzy_path = "[FzPath]",
+        --       fuzzy_path = "[FzPath]",
         rg = "[RG]",
         latex_symbols = "[Latex]",
         crates = "[Crates]",
@@ -72,15 +70,13 @@ cmp.setup {
   },
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
-    { name = 'nvim_lua'},
-    { name = 'luasnip' },
+    { name = 'nvim_lua' },
+    --    { name = 'luasnip' },
     { name = 'crates' },
-    { name = 'buffer' },
-    { name = 'crates' },
+    --    { name = 'buffer' },
     { name = 'fish' },
---    { name = 'fuzzy_path' },
-    { name = 'rg'},
-    { name = 'latex_symbols'}
+    { name = 'rg' },
+    --    { name = 'latex_symbols'}
   }),
 }
 
@@ -93,9 +89,6 @@ cmp.setup.cmdline('/', {
 cmp.setup.cmdline(':', {
   mapping = cmp.mapping.preset.cmdline(),
   sources = cmp.config.sources({
-    { name = 'fuzzy_path', options = {
-      fd_timeout_msec = 15000
-    } },
     { name = 'path' }
   }, {
     { name = 'cmdline' }

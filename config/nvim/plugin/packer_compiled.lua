@@ -84,15 +84,15 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["aylin.vim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/aylin.vim",
+    url = "https://github.com/AhmedAbdulrahman/aylin.vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
-  },
-  ["calvera-dark.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/calvera-dark.nvim",
-    url = "https://github.com/yashguptaz/calvera-dark.nvim"
   },
   ["calveradark.nvim"] = {
     loaded = true,
@@ -121,11 +121,6 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/opt/cmp-fish",
     url = "https://github.com/mtoohey31/cmp-fish"
-  },
-  ["cmp-fuzzy-path"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/cmp-fuzzy-path",
-    url = "https://github.com/tzachar/cmp-fuzzy-path"
   },
   ["cmp-latex-symbols"] = {
     loaded = true,
@@ -162,15 +157,35 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
-  ["fuzzy.nvim"] = {
+  ["everforest.git"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/fuzzy.nvim",
-    url = "https://github.com/tzachar/fuzzy.nvim"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/everforest.git",
+    url = "https://github.com/sainnhe/everforest"
+  },
+  ["gemstones.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/gemstones.nvim",
+    url = "https://github.com/j4d3nw/gemstones.nvim"
+  },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
+  ["lightspeed.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/lightspeed.nvim",
+    url = "https://github.com/ggandor/lightspeed.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["material.nvim"] = {
     loaded = true,
@@ -201,6 +216,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
+  },
+  ["nisha-vim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nisha-vim",
+    url = "https://github.com/heraldofsolace/nisha-vim"
+  },
+  ["nord.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nord.nvim",
+    url = "https://github.com/shaunsingh/nord.nvim"
   },
   nvim = {
     loaded = true,
@@ -257,6 +282,11 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
+  ["onenord.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onenord.nvim",
+    url = "https://github.com/rmehri01/onenord.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -277,20 +307,20 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ripgrep = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
+  },
   ["rust-tools.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
   },
-  ["telescope-fzf-native.nvim"] = {
+  ["starry.nvim"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
-    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
-  },
-  ["telescope-media-files.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
-    url = "https://github.com/nvim-telescope/telescope-media-files.nvim"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/starry.nvim",
+    url = "https://github.com/ray-x/starry.nvim"
   },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
@@ -312,20 +342,15 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["vim-fish"] = {
+  ["vim-lighthaus"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-fish",
-    url = "https://github.com/dag/vim-fish"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-lighthaus",
+    url = "https://github.com/lighthaus-theme/vim-lighthaus"
   },
   ["vim-moonfly-colors"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
     url = "https://github.com/bluz71/vim-moonfly-colors"
-  },
-  ["vim-nix"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-nix",
-    url = "https://github.com/LnL7/vim-nix"
   }
 }
 

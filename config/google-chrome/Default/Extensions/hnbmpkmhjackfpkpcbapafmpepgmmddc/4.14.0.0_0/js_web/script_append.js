@@ -1,1 +1,0 @@
-if("undefined"!=typeof script_filename||null===script_filename){let script_path=chrome.extension.getURL(script_filename);let script_append=document.createElement("script");script_append.src=script_path;(document.head||document.documentElement).appendChild(script_append);script_append.onload=function(){script_append.remove()}}

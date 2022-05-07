@@ -24,6 +24,7 @@ keymap("n", "<leader>/", ":Cheatsheet<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<leader>w", ":bdelete<Enter>", opts)
+keymap("n", "<leader>W", ":%bdelete|edit#|bdelete#<Enter>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-k>", ":resize +2<CR>", opts)
@@ -40,12 +41,6 @@ keymap("n", "<Space>T", ":!alacritty &<Enter>",opts)
 keymap("n", "<Space>nT", ":!alacritty -e bash &<Enter>",opts)
 keymap("n", "<Space>nt", ":split term://bash<Enter>i",opts)
 
--- float term?
-keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
-keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
-keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
-keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
 
 -- Nvim Keys
 keymap("n", "<leader>qc", ":Telescope colorscheme<Enter>", opts)
@@ -56,10 +51,14 @@ keymap("n", "<Space>ss", ":SessionManager save_current_session<CR>", opts)
 keymap("n", "<Space>sl", ":SessionManager load_session<CR>", opts)
 keymap("n", "<Space>sr", ":SessionManager load_last_session<CR>", opts)
 
--- Code Running
-keymap("n", "<leader>p", ":!python3 %<Enter>", opts)
-keymap("n", "<leader>j", ":!julia %<Enter>", opts)
-keymap("n", "<leader>nr", ":!nimble run<Enter>", opts)
+-- Code Running?
+-- vim.cmd"autocmd BufEnter *.py noremap <leader>p :!python3 %<CR>"
+-- vim.cmd"autocmd BufEnter *.c noremap <leader>p :!gcc -Wall % -o result && ./result<CR>"
+-- vim.cmd"autocmd BufEnter *.lua noremap <leader>p :!lua5.3 %<CR>"
+-- vim.cmd"autocmd BufEnter *.cpp noremap <leader>p :!g++ -Wall % -o result && ./result<CR>"
+-- vim.cmd"autocmd BufEnter *.jl noremap <leader>p :!julia %<CR>"
+-- vim.cmd"autocmd BufEnter *.nim noremap <leader>p :!nim run %<CR>"
+-- vim.cmd"autocmd BufEnter *.rs noremap <leader>p :!rustc % -o result && ./result<CR>"
 
 -- Rust Bindings
 keymap("n", "<leader>rr", ":!cargo run<Enter>", opts)
@@ -76,6 +75,7 @@ keymap("n", "<leader>mt", ":!make test<Enter>", opts)
 -- Telescope
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<leader>F", "<cmd>Telescope live_grep<cr>", opts)
+keymap("n", "<leader>g", "<cmd>Telescope buffers<cr>", opts)
 
 -- NvimTree
 keymap("n", "<C-space>", "<cmd>NvimTreeToggle<CR>", opts)

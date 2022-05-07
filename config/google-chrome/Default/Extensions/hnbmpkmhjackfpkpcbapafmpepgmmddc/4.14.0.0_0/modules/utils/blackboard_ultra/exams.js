@@ -1,1 +1,0 @@
-globalThis.isExamToggleEnabled=(examToggles,toggleIndex)=>!!examToggles[toggleIndex]&&!!Number(examToggles[toggleIndex]["value"]);
