@@ -55,11 +55,7 @@ return packer.startup(function(use)
   use 'sudormrfbin/cheatsheet.nvim' -- :Cheatsheet
   use 'akinsho/bufferline.nvim'
   use 'nvim-telescope/telescope-ui-select.nvim'
-
-  -- Software Development
-  --use 'folke/todo-comments.nvim'
-  use 'numToStr/Comment.nvim'
-  use 'ggandor/lightspeed.nvim' -- TODO: learn how to use these plugins
+  use '907th/vim-auto-save'
 
   -- Languages
   use 'simrat39/rust-tools.nvim'
@@ -100,7 +96,8 @@ return packer.startup(function(use)
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "williamboman/nvim-lsp-installer"
+   -- simple to use language server installer
 
   -- Session
   use {
@@ -132,6 +129,9 @@ return packer.startup(function(use)
   use 'https://github.com/lighthaus-theme/vim-lighthaus'
   use 'https://github.com/rmehri01/onenord.nvim'
   use 'https://github.com/sainnhe/everforest.git'
+  use 'https://github.com/Mofiqul/dracula.nvim'
+  use 'https://github.com/altercation/vim-colors-solarized'
+  use 'https://github.com/embark-theme/vim'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

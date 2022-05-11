@@ -69,11 +69,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["Comment.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/Comment.nvim",
-    url = "https://github.com/numToStr/Comment.nvim"
-  },
   LuaSnip = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -171,11 +166,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
-  },
-  ["lightspeed.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/lightspeed.nvim",
-    url = "https://github.com/ggandor/lightspeed.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -341,6 +331,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  vim = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/embark-theme/vim"
+  },
+  ["vim-auto-save"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-auto-save",
+    url = "https://github.com/907th/vim-auto-save"
+  },
+  ["vim-colors-solarized"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
+    url = "https://github.com/altercation/vim-colors-solarized"
   },
   ["vim-lighthaus"] = {
     loaded = true,

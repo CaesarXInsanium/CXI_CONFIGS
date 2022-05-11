@@ -2,8 +2,8 @@ local wezterm = require 'wezterm';
 -- this ligurature support test
 -- >= == www *** %% ### ## # !=
 return {
-	color_scheme = "Gruvbox Dark",
-	font = wezterm.font("JetBrainsMono NF"),
+	color_scheme = "ayu",
+	font = wezterm.font("Iosevka"),
   font_size = 11.0,
   window_background_opacity = 0.93,
   use_fancy_tab_bar = false,

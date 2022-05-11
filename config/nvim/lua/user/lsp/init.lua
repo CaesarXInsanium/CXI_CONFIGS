@@ -28,18 +28,16 @@ local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>cf', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 end
+
+local servers = {'pyright', 'rust_analyzer', 'clangd', 'zls'}
+
+require('nvim-lsp-installer').setup({
+  ensure_installed = servers
+})
+for _, lsp in pairs(servers) do
+  require('lspconfig')[lsp].setup{}
+end
+
 -- Add additional capabilities supported by nvim-cmp
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
-
-local lsp_installer = require("nvim-lsp-installer")
--- Register a handler that will be called for each installed server when it's ready (i.e. when installation is finished
--- or if the server is already installed).
-lsp_installer.on_server_ready(function(server)
-  local settings = {
-    on_attach = on_attach,
-    capabilities = capabilities,
-  }
-  -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-  server:setup(settings)
-end)

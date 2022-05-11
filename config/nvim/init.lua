@@ -14,7 +14,7 @@ require "user.nvimtree"
 require "user.lualine"
 
 require "user.lang"
-require "user.comment"
+-- require "user.comment"
 
 require "user.session"
 require "user.alpha"

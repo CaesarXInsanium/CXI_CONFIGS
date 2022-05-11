@@ -20,6 +20,7 @@ vim.g.maplocalleader = " "
 
 -- Better window navigation
 keymap("n", "<leader>/", ":Cheatsheet<CR>", opts)
+
 -- Shift Bindings for navigating Buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
@@ -31,7 +32,6 @@ keymap("n", "<C-k>", ":resize +2<CR>", opts)
 keymap("n", "<C-j>", ":resize -2<CR>", opts)
 keymap("n", "<C-h>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-l>", ":vertical resize +2<CR>", opts)
-
 
 -- Terminal --
 keymap("n", "<Space>t", ":split term://fish<Enter>i",opts)
@@ -79,4 +79,5 @@ keymap("n", "<leader>g", "<cmd>Telescope buffers<cr>", opts)
 
 -- NvimTree
 keymap("n", "<C-space>", "<cmd>NvimTreeToggle<CR>", opts)
+keymap("n", "<M-space>", "<cmd>NvimTreeRefresh<CR>", opts)
 

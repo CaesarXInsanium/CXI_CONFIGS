@@ -1,5 +1,5 @@
 BASE16_ACTIVE = false
-NVIM_THEME = "everforest"
+NVIM_THEME = "material"
 
 vim.o.background = "dark"
 vim.g.tokyonight_style = "night"
