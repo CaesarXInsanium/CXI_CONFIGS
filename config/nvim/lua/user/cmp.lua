@@ -59,7 +59,6 @@ cmp.setup {
         luasnip = "[LuaSnippet]",
         buffer = "[Buffer]",
         path = "[Path]",
-        --       fuzzy_path = "[FzPath]",
         rg = "[RG]",
         latex_symbols = "[Latex]",
         crates = "[Crates]",

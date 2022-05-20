@@ -18,7 +18,6 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
--- Better window navigation
 keymap("n", "<leader>/", ":Cheatsheet<CR>", opts)
 
 -- Shift Bindings for navigating Buffers
@@ -45,6 +44,9 @@ keymap("n", "<Space>nt", ":split term://bash<Enter>i",opts)
 -- Nvim Keys
 keymap("n", "<leader>qc", ":Telescope colorscheme<Enter>", opts)
 keymap("n", "<leader>qs", ":alpha<Enter>", opts)
+keymap("n", "<leader>qk", ":Telescope keymaps<Enter>", opts)
+keymap("n", "<leader>qo", ":Telescope vim_options<Enter>", opts)
+keymap("n", "<leader>qf", ":lua vim.opt.guifont=", opts)
 
 -- Dashboard Keys
 keymap("n", "<Space>ss", ":SessionManager save_current_session<CR>", opts)
@@ -67,15 +69,21 @@ keymap("n", "<leader>rb", ":!cargo build --release<Enter>", opts)
 keymap("n", "<leader>rt", ":!cargo test<Enter>", opts)
 keymap("n", "<leader>rf", ":!cargo fmt --all<Enter>", opts)
 
+-- Run Code
+keymap("n", "<leader>p", ":!python3 % <CR>", opts)
+keymap("n", "<leader>P", ":noremap <Space>p :!", opts)
+
 -- Make Bindings
 keymap("n", "<leader>mr", ":!make run<Enter>", opts)
 keymap("n", "<leader>ma", ":!make all<Enter>", opts)
 keymap("n", "<leader>mt", ":!make test<Enter>", opts)
+keymap("n", "<leader>mc", ":!make clean<Enter>", opts)
 
 -- Telescope
-keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
-keymap("n", "<leader>F", "<cmd>Telescope live_grep<cr>", opts)
-keymap("n", "<leader>g", "<cmd>Telescope buffers<cr>", opts)
+keymap("n", "<leader>f", "<cmd>Telescope buffers<cr>", opts)
+keymap("n", "<leader>F", "<cmd>Telescope fd<cr>", opts)
+keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", opts)
+keymap("n", "<leader>tm", "<cmd>Telescope man_pages<cr>", opts)
 
 -- NvimTree
 keymap("n", "<C-space>", "<cmd>NvimTreeToggle<CR>", opts)

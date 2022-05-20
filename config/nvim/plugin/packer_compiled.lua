@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
-  ["aylin.vim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/aylin.vim",
-    url = "https://github.com/AhmedAbdulrahman/aylin.vim"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -147,25 +142,35 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/crates.nvim",
     url = "https://github.com/Saecki/crates.nvim"
   },
+  ["doom-one.nvim.git"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/doom-one.nvim.git",
+    url = "https://github.com/NTBBloodbath/doom-one.nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  edge = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/edge",
+    url = "https://github.com/sainnhe/edge"
   },
   ["everforest.git"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/everforest.git",
     url = "https://github.com/sainnhe/everforest"
   },
-  ["gemstones.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/gemstones.nvim",
-    url = "https://github.com/j4d3nw/gemstones.nvim"
-  },
   ["github-nvim-theme"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
+  },
+  ["kanagawa.nvim.git"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/kanagawa.nvim.git",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -207,20 +212,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
-  ["nisha-vim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nisha-vim",
-    url = "https://github.com/heraldofsolace/nisha-vim"
-  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nord.nvim",
     url = "https://github.com/shaunsingh/nord.nvim"
-  },
-  nvim = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nvim",
-    url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -272,10 +267,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
-  ["onenord.nvim"] = {
+  ["onedarkpro.nvim.git"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onenord.nvim",
-    url = "https://github.com/rmehri01/onenord.nvim"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim.git",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -307,11 +302,6 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
   },
-  ["starry.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/starry.nvim",
-    url = "https://github.com/ray-x/starry.nvim"
-  },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
@@ -342,20 +332,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-auto-save",
     url = "https://github.com/907th/vim-auto-save"
   },
-  ["vim-colors-solarized"] = {
+  ["vim-nightfly-guicolors"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
-    url = "https://github.com/altercation/vim-colors-solarized"
-  },
-  ["vim-lighthaus"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-lighthaus",
-    url = "https://github.com/lighthaus-theme/vim-lighthaus"
-  },
-  ["vim-moonfly-colors"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
-    url = "https://github.com/bluz71/vim-moonfly-colors"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
+    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   }
 }
 

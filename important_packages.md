@@ -1,4 +1,4 @@
-# Shit to always install you dumb retard
+# Important Packages
 
 ## Terminals
 
@@ -13,7 +13,7 @@
 - Victor Mono
 - Cascadia Code
 - JetBrainsMono
-- nerd fonts...
+- Anonymous Pro
 
 ## Window Managers and Utilities
 
@@ -55,18 +55,20 @@
 - arch-install-tools
 - thunar
 
-## Npm
+## Npm/Javascript
 
 - npm
 - node
+- tsserver: LSP
 
-## Pip
+## Pip/Python
 
 - virtualenv
 - pywal
 - pynvim
+- pyright: LSP
 
-## Cargo
+## Cargo/Rust
 
 - lfs
 - rm-improved: rip
@@ -75,12 +77,16 @@
 - exa
 - bat
 - fd-find: fd
+- rust-analyzer: LSP
 
-# C
+## C/Clang/GCC
 
+- BEAR: Build compilation database: https://github.com/rizsotto/Bear
+- clangd: LSP
+
+### Libraries
 - #include <glfw/glfw3.h>
 - #include <raylib.h>
-- BEAR: Build compilation database: https://github.com/rizsotto/Bear
 
 ## Arch Based
 
@@ -90,11 +96,8 @@
 
 - nala
 
-## Development Libraries
 
-- glfw
-- vulkan
-- 
+##
 
 ## Miscallenous
 

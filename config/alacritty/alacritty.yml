@@ -1,9 +1,9 @@
 font:
   normal:
-    family: CaskaydiaCove Nf
+    family: Anonymous Pro Minus
     style: Regular
 
-size: 11
+size: 12
       
 builtin_box_drawing: false
 window:
@@ -396,4 +396,4 @@ PinkSmoke: &PinkSmoke
       magenta: '0xc792ea'
       cyan:    '0x7fdbca'
       white:   '0xffffff'
-colors: *ayu
+colors: *jahy

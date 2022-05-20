@@ -32,7 +32,7 @@ vim.o.sessionoptions="blank,buffers,curdir,folds,help,tabpages,winsize,winpos,te
 vim.opt.wrap = false -- display lines as one long line
 vim.opt.scrolloff = 8 -- is one of my fav
 vim.opt.sidescrolloff = 8
-vim.opt.guifont = "JetBrainsMono NF:h11"
+vim.opt.guifont = "Anonymous Pro:h12.5"
 -- set guifont=*, scroll down to see available fonts
 -- -> => *** www == <= != ligurature test
 
