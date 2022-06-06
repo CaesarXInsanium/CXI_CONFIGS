@@ -1,3 +1,6 @@
+[$Version]
+update_info=konsole_globalaccel.upd:konsole_globalaccel,spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+
 [ColorEffects:Disabled]
 ChangeSelectionColor[$d]
 Color[$d]
@@ -137,9 +140,8 @@ DataCount=3
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=2
+DataCount=1
 Enabled=true
-ImportId=defaults
 Name=KMenuEdit
 SystemGroup=1
 Type=ACTION_DATA_GROUP
@@ -173,32 +175,6 @@ TriggersCount=1
 Key=
 Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
-
-[Data_1_2]
-Comment=Global keyboard shortcut to launch Konsole
-Enabled=true
-Name=Launch Konsole
-Type=MENUENTRY_SHORTCUT_ACTION_DATA
-
-[Data_1_2Actions]
-ActionsCount=1
-
-[Data_1_2Actions0]
-CommandURL=org.kde.konsole.desktop
-Type=MENUENTRY
-
-[Data_1_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_2Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_2Triggers0]
-Key=Ctrl+Alt+T
-Type=SHORTCUT
-Uuid={da4c2806-296d-4b3a-860b-a43a999c3b8d}
 
 [Data_2]
 Comment=This group contains various examples demonstrating most of the features of KHotkeys. (Note that this group and all its actions are disabled by default.)
@@ -1026,10 +1002,15 @@ Disabled=true
 MouseButton=2
 Timeout=300
 
+[GesturesExclude]
+Comment=
+WindowsCount=0
+
 [Icons]
 Theme[$d]
 
 [KDE]
+LookAndFeelPackage[$d]
 widgetStyle[$d]
 
 [Main]

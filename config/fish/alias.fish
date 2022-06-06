@@ -16,6 +16,7 @@ alias enu="nvim ~/.config/nushell/config.nu"
 
 alias evim="nvim ~/.config/nvim/init.vim"
 alias envim="nvim ~/.config/nvim/init.lua"
+alias eemacs="emacs ~/.emacs.d/init.el"
 alias estar="nvim ~/.config/starship.toml"
 alias ebat="nvim ~/.config/bat/config"
 
@@ -44,9 +45,13 @@ alias window_name="xprop |awk '/WM_CLASS/{print $4}'"
 alias g="git"
 alias c="cargo"
 alias v="nvim"
+alias e="emacsclient -c"
+
 
 # Two Letter Aliases
 alias nv="neovide --multigrid"
 alias py="python3"
+
+
 
 alias untar="tar -xvf"

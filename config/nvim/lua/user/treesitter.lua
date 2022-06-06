@@ -1,11 +1,11 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
-  ensure_installed = {"c", "lua",  "rust", "python", "cpp", "clojure", "cmake", "fish", "go", "http", "yaml", "toml", "julia", "latex", "llvm", "nix", "vim",  },
+  ensure_installed = {"java", "c", "lua",  "rust", "python", "cpp", "clojure", "cmake", "fish", "go", "http", "yaml", "toml", "julia", "latex", "llvm", "nix", "vim",  },
   sync_install = false,
-  ignore_install = { "" }, -- List of parsers to ignore installing
+  ignore_install = {  }, -- List of parsers to ignore installing
   highlight = {
     enable = true, -- false will disable the whole extension
-    additional_vim_regex_highlighting = true,
+    additional_vim_regex_highlighting = {"fish", "nix"},
 
   },
   indent = { enable = true, disable = { "yaml" } },

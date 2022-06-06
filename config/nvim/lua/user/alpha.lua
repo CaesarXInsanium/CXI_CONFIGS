@@ -1,25 +1,36 @@
-local alpha                   = require('alpha')
-local dashboard               = require 'alpha.themes.dashboard'
+local alpha    = require('alpha')
+local startify = require 'alpha.themes.startify'
 
-dashboard.section.header.val  = {
-[[ _       __     __                               _______  __ ____]],
-[[| |     / /__  / /________  ____ ___  ___       / ____/ |/ //  _/]],
-[[| | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \     / /    |   / / /  ]],
-[[| |/ |/ /  __/ / /__/ /_/ / / / / / /  __/    / /___ /   |_/ /   ]],
-[[|__/|__/\___/_/\___/\____/_/ /_/ /_/\___( )   \____//_/|_/___/   ]],
-[[                                        |/                       ]],
+startify.section.header.val         = {
+  [[ _       __     __                               _______  __ ____]],
+  [[| |     / /__  / /________  ____ ___  ___       / ____/ |/ //  _/]],
+  [[| | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \     / /    |   / / /  ]],
+  [[| |/ |/ /  __/ / /__/ /_/ / / / / / /  __/    / /___ /   |_/ /   ]],
+  [[|__/|__/\___/_/\___/\____/_/ /_/ /_/\___( )   \____//_/|_/___/   ]],
+  [[                                        |/                       ]],
 }
-dashboard.section.buttons.val = {
-        dashboard.button("e", "Empty Buffer",":ene <BAR> startinsert <CR>" ),
-        dashboard.button("r", "Resume Session",":SessionManager load_session<CR>" ),
-        dashboard.button("q", "Quit",":qa!<CR>" ),
+startify.section.top_buttons.val    = {
+  startify.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
+  startify.button("r", "Resume Session", ":SessionManager load_session<CR>"),
 }
-local handle                  = io.popen('fortune')
-local fortune                 = handle:read("*a")
-handle:close()
-dashboard.section.footer.val = fortune
-dashboard.config.opts.noautocmd = true
+-- disable MRU
+startify.section.mru.val            = { { type = "padding", val = 0 } }
+-- disable MRU cwd
+startify.section.mru_cwd.val        = { { type = "padding", val = 0 } }
+startify.section.bottom_buttons.val = {
+  startify.button("q", "  Quit NVIM", ":qa<CR>"),
+}
+-- disable nvim_web_devicons
+startify.nvim_web_devicons.enabled  = true
+startify.nvim_web_devicons.highlight = true
+startify.nvim_web_devicons.highlight = 'Keyword'
+--
+startify.section.footer             = {
+  { type = "text", val = "footer" },
+}
 
-vim.cmd [[autocmd User AlphaReady echo 'ready']]
-
-alpha.setup(dashboard.config)
+startify.mru_opts.ignore = function(path, ext)
+  return (string.find(path, "COMMIT_EDITMSG"))
+      or (vim.tbl_contains(default_mru_ignore, ext))
+end
+alpha.setup(startify.config)

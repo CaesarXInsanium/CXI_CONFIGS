@@ -14,8 +14,12 @@ super + shift + @space
 	rofi -show run
 super + n
 	neovide
-super + shift + n
-  
+super + e
+  emacsclient -c
+super + shift + e
+  emacsclient -e
+super + alt + e
+  fish -c "reload-emacs" 
 super + p
   fish -c "picom"
 Print
@@ -43,6 +47,8 @@ super + shift + Escape
 	systemctl suspend
 super + ctrl + Escape
 	systemctl hibernate
+super + alt + Escape
+  xlock
 # MOUSE RESIZE
 alt + button{1-3}
 	bspc pointer --grab {move,resize_side,resize_corner}

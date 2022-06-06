@@ -18,10 +18,14 @@
         <value type="int" value="5"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
+        <value type="int" value="7"/>
         <value type="int" value="11"/>
         <value type="int" value="6"/>
         <value type="int" value="12"/>
         <value type="int" value="14"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
       </property>
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="enter-opacity" type="uint" value="80"/>
@@ -65,6 +69,8 @@
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="thunar"/>
         <value type="string" value="lxmusic"/>
         <value type="string" value="deluge"/>
         <value type="string" value="ibus panel"/>
@@ -98,40 +104,6 @@
       </property>
       <property name="appearance" type="uint" value="1"/>
     </property>
-    <property name="plugin-7" type="string" value="wavelan"/>
-    <property name="plugin-8" type="string" value="systemload">
-      <property name="network" type="empty">
-        <property name="enabled" type="bool" value="false"/>
-      </property>
-      <property name="swap" type="empty">
-        <property name="color" type="array">
-          <value type="double" value="0.568627"/>
-          <value type="double" value="0.254902"/>
-          <value type="double" value="0.674510"/>
-          <value type="double" value="1.000000"/>
-        </property>
-      </property>
-      <property name="memory" type="empty">
-        <property name="color" type="array">
-          <value type="double" value="0.960784"/>
-          <value type="double" value="0.760784"/>
-          <value type="double" value="0.066667"/>
-          <value type="double" value="1.000000"/>
-        </property>
-      </property>
-      <property name="cpu" type="empty">
-        <property name="color" type="array">
-          <value type="double" value="0.647059"/>
-          <value type="double" value="0.113725"/>
-          <value type="double" value="0.176471"/>
-          <value type="double" value="1.000000"/>
-        </property>
-      </property>
-      <property name="uptime" type="empty">
-        <property name="enabled" type="bool" value="false"/>
-      </property>
-    </property>
-    <property name="plugin-10" type="string" value="fsguard"/>
     <property name="plugin-15" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="chromium.instance106553;chromium.instance11313;chromium.instance14323;chromium.instance156581;chromium.instance182983;chromium.instance2329;chromium.instance2603;chromium.instance274489;chromium.instance27557;chromium.instance286408;chromium.instance3173;chromium.instance3442;chromium.instance39306;chromium.instance401229;chromium.instance416202;chromium.instance4663;chromium.instance468053;chromium.instance48776;chromium.instance497768;chromium.instance734695;chromium.instance9297;firefox.instance110192;firefox.instance155153;firefox.instance179548;firefox.instance193167;firefox.instance281562;firefox.instance3459;firefox.instance40627;firefox.instance4522;firefox.instance482921;firefox.instance50856;firefox.instance7424;firefox.instance7503"/>
@@ -140,6 +112,12 @@
       <property name="style" type="uint" value="1"/>
     </property>
     <property name="plugin-13" type="string" value="separator"/>
-    <property name="plugin-9" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="elisa;firefox.instance10419;firefox.instance3195;firefox.instance541334"/>
+    </property>
+    <property name="plugin-8" type="string" value="wavelan"/>
+    <property name="plugin-9" type="string" value="cpugraph"/>
+    <property name="plugin-10" type="string" value="eyes"/>
   </property>
 </channel>

@@ -12,6 +12,7 @@ require "user.telescope"
 require "user.autopairs"
 require "user.nvimtree"
 require "user.lualine"
+require "user.bufferline"
 
 require "user.lang"
 -- require "user.comment"
@@ -22,3 +23,4 @@ require "user.alpha"
 require "user.neovide"
 
 require 'colorizer'.setup()
+require 'Comment'.setup()

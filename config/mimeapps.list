@@ -91,3 +91,4 @@ application/vnd.ms-excel=libreoffice-calc.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/zip=xarchiver.desktop;
 text/x-csrc=visual-studio-code.desktop;nvim.desktop;
+text/x-chdr=emacsclient.desktop;

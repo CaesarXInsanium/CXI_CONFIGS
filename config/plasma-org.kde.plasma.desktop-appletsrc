@@ -20,7 +20,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=file:///usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
 
 [Containments][2]
 activityId=
@@ -50,7 +50,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -87,7 +87,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=47
+PreloadWeight=67
 SystrayContainmentId=8
 
 [Containments][2][Configuration]
@@ -145,7 +145,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][15][Configuration]
-PreloadWeight=42
+PreloadWeight=52
+
+[Containments][8][Applets][15][Configuration][General]
+currentTab=streams
 
 [Containments][8][Applets][18]
 immutability=1
@@ -159,13 +162,28 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][19][Configuration]
-PreloadWeight=42
+PreloadWeight=47
 
 [Containments][8][Applets][20]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][20][Configuration]
+PreloadWeight=42
+
+[Containments][8][Applets][21]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][8][Applets][22]
+immutability=1
+plugin=org.kde.ktp-contactlist
+
+[Containments][8][Applets][23]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][8][Applets][23][Configuration]
 PreloadWeight=42
 
 [Containments][8][Applets][9]
@@ -179,8 +197,8 @@ PreloadWeight=42
 PreloadWeight=42
 
 [Containments][8][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.networkmanagement,org.kde.plasma.volume
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.networkmanagement,org.kde.plasma.volume
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.ktp-contactlist
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.ktp-contactlist
 
 [ScreenMapping]
 itemsOnDisabledScreens=

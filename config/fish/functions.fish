@@ -8,11 +8,7 @@ function rm
 end
 
 function full-update
-	cowsay -f tux "Yes My lord"  | lolcat
-	cowsay "Flatpak updates..." | lolcat
-	flatpak update
-	cowsay "Apt Updates.." | lolcat
-  sudo dnf update
+  echo "Not implmented"
 end
 
 function unzip
@@ -61,5 +57,10 @@ function cc
   set result (echo $argv | sed 's/\.[^.]*$//')
   gcc -Wall $argv -o $result
   ./$result
+end
+
+function reload-emacs
+  emacsclient -e "(kill-emacs)"
+  emacs --deamon
 end
   

@@ -22,12 +22,14 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Xfce4-appfinder state=floating follow=on
-# bspc rule -a Emacs state=tiled
+bspc rule -a Emacs state=tiled
 # Autostart Programs
 xrandr -r 165.00 
 #nitrogen --set-zoom-fill --random ~/Images/Wallpapers  
+emacs --daemon
 nitrogen --restore
 /usr/bin/gnome-keyring-daemon --start
+xfce4-screensaver &
 pgrep -x xfce4-panel > /dev/null || xfce4-panel &
 pgrep -x picom > /dev/null || picom --experimental-backends &
 

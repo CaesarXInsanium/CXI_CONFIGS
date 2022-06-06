@@ -1,9 +1,10 @@
 font:
   normal:
-    family: Anonymous Pro Minus
-    style: Regular
+    family: JetBrainsMono Nerd Font
+    style: Semibold
 
-size: 12
+
+size: 10
       
 builtin_box_drawing: false
 window:
@@ -12,7 +13,7 @@ window:
     y: 3
   dynamic_padding: false
 
-window_opacity: 0.5
+window_opacity: 0.9
 
 schemes:
 pupil: &pupil
@@ -396,4 +397,4 @@ PinkSmoke: &PinkSmoke
       magenta: '0xc792ea'
       cyan:    '0x7fdbca'
       white:   '0xffffff'
-colors: *jahy
+colors: *ayu

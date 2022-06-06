@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -152,20 +157,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
-  edge = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/edge",
-    url = "https://github.com/sainnhe/edge"
-  },
   ["everforest.git"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/everforest.git",
     url = "https://github.com/sainnhe/everforest"
-  },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
   },
   ["kanagawa.nvim.git"] = {
     loaded = true,
@@ -192,6 +187,11 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
     url = "https://github.com/shaunsingh/moonlight.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   ["neovim-ayu"] = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/neovim-ayu",
@@ -212,10 +212,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
-  ["nord.nvim"] = {
+  nvim = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -231,6 +231,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
@@ -261,16 +266,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
-  },
-  ["onedark.nvim"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
-  },
-  ["onedarkpro.nvim.git"] = {
-    loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim.git",
-    url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -327,10 +322,10 @@ _G.packer_plugins = {
     path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim",
     url = "https://github.com/embark-theme/vim"
   },
-  ["vim-auto-save"] = {
+  ["vim-dogrun"] = {
     loaded = true,
-    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-auto-save",
-    url = "https://github.com/907th/vim-auto-save"
+    path = "/home/cxi/.local/share/nvim/site/pack/packer/start/vim-dogrun",
+    url = "https://github.com/wadackel/vim-dogrun"
   },
   ["vim-nightfly-guicolors"] = {
     loaded = true,

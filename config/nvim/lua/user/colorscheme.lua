@@ -9,10 +9,12 @@ vim.g.neon_style = "dark"
 vim.g.dracula_show_end_of_buffer = true
 vim.g.dracula_transparent_bg = false
 vim.g.dracula_italic_comment = true
+vim.g.catppuccin_floavour = "macchiato" -- latte, frappe, macchiato, mocha
+NVIM_THEME = "catppuccin"
 
-NVIM_THEME = "doom-one"
+
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. NVIM_THEME)
 if not status_ok then
-  vim.notify("colorscheme " .. NVIM_THEME.. " not found!")
+  vim.notify("colorscheme " .. NVIM_THEME .. " not found!")
   return
 end

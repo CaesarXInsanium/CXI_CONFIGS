@@ -55,13 +55,15 @@ return packer.startup(function(use)
   use 'sudormrfbin/cheatsheet.nvim' -- :Cheatsheet
   use 'akinsho/bufferline.nvim'
   use 'nvim-telescope/telescope-ui-select.nvim'
-  use '907th/vim-auto-save'
+  use 'numToStr/Comment.nvim'
+
+  -- GIT
+  use 'https://github.com/TimUntersberger/neogit'
 
   -- Languages
   use 'simrat39/rust-tools.nvim'
   use 'Saecki/crates.nvim'
---  use 'dag/vim-fish'
---  use 'LnL7/vim-nix'
+  use 'https://github.com/mfussenegger/nvim-dap'
 
   -- CMP
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -82,8 +84,8 @@ return packer.startup(function(use)
 
   -- Telescope
   use {
-  "nvim-telescope/telescope.nvim",
-    requires = {{ 'nvim-lua/plenary.nvim'}}
+    "nvim-telescope/telescope.nvim",
+    requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
   -- Treesitter
@@ -97,7 +99,6 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer"
-   -- simple to use language server installer
 
   -- Session
   use {
@@ -113,20 +114,18 @@ return packer.startup(function(use)
   use 'marko-cerovac/material.nvim'
   use 'EdenEast/nightfox.nvim'
   use 'Mofiqul/dracula.nvim'
-  use 'navarasu/onedark.nvim'
   use 'shaunsingh/moonlight.nvim'
   use 'CaesarXInsanium/calveradark.nvim'
-  use 'projekt0n/github-nvim-theme'
-  use 'https://github.com/shaunsingh/nord.nvim'
   use 'https://github.com/rktjmp/lush.nvim'
   use 'https://github.com/sainnhe/everforest.git'
   use 'https://github.com/embark-theme/vim'
-  use 'https://github.com/sainnhe/edge'
-  use 'https://github.com/olimorris/onedarkpro.nvim.git'
   use 'https://github.com/NTBBloodbath/doom-one.nvim.git'
   use 'https://github.com/rebelot/kanagawa.nvim.git'
   use 'https://github.com/bluz71/vim-nightfly-guicolors'
   use 'https://github.com/Shatur/neovim-ayu'
+  use 'catppuccin/nvim'
+  use 'wadackel/vim-dogrun'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

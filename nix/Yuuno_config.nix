@@ -53,7 +53,7 @@ services = {
                 };
                 windowManager = {
                         bspwm.enable = true;
-                        leftwm.enable = true;
+                        awesome.enable = true;
                 };
         };
         pipewire = {
@@ -97,7 +97,7 @@ hardware = {
 users.users.cxi = {
         isNormalUser = true;
         extraGroups = [ "wheel" "sudo" "libvirtd" ]; 
-        shell = pkgs.fish;
+        shell = pkgs.zsh;
 };
 
 environment.systemPackages = with pkgs; [

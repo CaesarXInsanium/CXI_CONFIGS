@@ -77,12 +77,12 @@ time_format = "%T"
 # Prompt: param 2
 # SYMBOLS
 [shell]
-zsh_indicator="zsh"
-bash_indicator="bsh"
-fish_indicator = ""
+zsh_indicator="z"
+bash_indicator="b"
+fish_indicator = "f"
 nu_indicator="nu"
 powershell_indicator = "_"
-unknown_indicator = "?shell"
+unknown_indicator = "?sh"
 style = "cyan bold"
 disabled = false
 

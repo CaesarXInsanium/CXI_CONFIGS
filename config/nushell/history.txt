@@ -1,32 +1,5 @@
 rip .config/nushell/*
+nu
 ls
 clear
 ls
-clear
-ls
-clear
-lolcat
-neofetch | lolcat
-clear
-ls
-neofetch
-ls
-help
-ls
-asda
-git --version
-ls
-clear
-help
-help commands
-ls | to toml
-clear
-ls
-cd ./Projects/
-ls
-cd Books
-ls
-cd ..
-cd C/LearnC/
-ls
-mdbook  run -p 3003

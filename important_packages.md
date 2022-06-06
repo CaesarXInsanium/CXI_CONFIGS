@@ -26,14 +26,12 @@
 - river
 - nitrogen
 - gnome-keyring
+- xlockmore: xlock
 
 ## Browsers
 
 - firefox
 - librewolf
-- tor
-- brave
-- google chrome
 
 
 ## Text Editors
@@ -48,7 +46,7 @@
 - fish
 - zsh
 - xonsh
-- shells
+- nushell
 
 ## System Utilities
 
@@ -82,7 +80,8 @@
 ## C/Clang/GCC
 
 - BEAR: Build compilation database: https://github.com/rizsotto/Bear
-- clangd: LSP
+- clangd: LSP.
+  - place compile_commands.json in directory named build
 
 ### Libraries
 - #include <glfw/glfw3.h>
@@ -96,8 +95,6 @@
 
 - nala
 
-
-##
 
 ## Miscallenous
 

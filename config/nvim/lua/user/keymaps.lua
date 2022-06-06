@@ -34,11 +34,7 @@ keymap("n", "<C-l>", ":vertical resize +2<CR>", opts)
 
 -- Terminal --
 keymap("n", "<Space>t", ":split term://fish<Enter>i",opts)
-keymap("n", "<Space>T", ":!alacritty &<Enter>",opts)
-
--- Nix
-keymap("n", "<Space>nT", ":!alacritty -e bash &<Enter>",opts)
-keymap("n", "<Space>nt", ":split term://bash<Enter>i",opts)
+keymap("n", "<Space>T", ":!alacritty -e zsh &<Enter>",opts)
 
 
 -- Nvim Keys
@@ -47,6 +43,11 @@ keymap("n", "<leader>qs", ":alpha<Enter>", opts)
 keymap("n", "<leader>qk", ":Telescope keymaps<Enter>", opts)
 keymap("n", "<leader>qo", ":Telescope vim_options<Enter>", opts)
 keymap("n", "<leader>qf", ":lua vim.opt.guifont=", opts)
+
+-- LSP
+keymap("n", "<leader>li", ":LspInfo<CR>", opts)
+keymap("n", "<leader>lI", ":LspInstallInfo<CR>", opts)
+keymap("n", "<leader>lr", ":LspRestart<CR>", opts)
 
 -- Dashboard Keys
 keymap("n", "<Space>ss", ":SessionManager save_current_session<CR>", opts)
@@ -71,7 +72,7 @@ keymap("n", "<leader>rf", ":!cargo fmt --all<Enter>", opts)
 
 -- Run Code
 keymap("n", "<leader>p", ":!python3 % <CR>", opts)
-keymap("n", "<leader>P", ":noremap <Space>p :!", opts)
+keymap("n", "<leader>P", ":noremap ", opts)
 
 -- Make Bindings
 keymap("n", "<leader>mr", ":!make run<Enter>", opts)

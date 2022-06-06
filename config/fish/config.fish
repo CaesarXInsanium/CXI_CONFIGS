@@ -7,6 +7,7 @@ source ~/.config/fish/functions.fish
 # Bindings
 bind \cd exit
 
+
 # VARIABLES
 set EDITOR nvim
 

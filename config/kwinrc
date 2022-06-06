@@ -8,3 +8,11 @@ OpenGLIsUnsafe=false
 Id_1=87def3b9-8008-4f9b-9874-951b670a4bef
 Number=1
 Rows=1
+
+[Plugins]
+fallapartEnabled=true
+wobblywindowsEnabled=true
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Fireflies-dark-round
