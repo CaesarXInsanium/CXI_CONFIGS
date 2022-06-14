@@ -1,19 +1,21 @@
 font:
   normal:
-    family: JetBrainsMono Nerd Font
+    family: Iosevka Nerd Font
     style: Semibold
 
-
-size: 10
-      
-builtin_box_drawing: false
+  size: 12.0
+  offset:
+    x: 0
+    y: 0
+  builtin_box_drawing: true
+draw_bold_text_with_bright_colors: true
 window:
   padding:
-    x: 1
+    x: 3
     y: 3
-  dynamic_padding: false
+  dynamic_padding: true
 
-window_opacity: 0.9
+  window_opacity: 0.8
 
 schemes:
 pupil: &pupil
@@ -397,4 +399,4 @@ PinkSmoke: &PinkSmoke
       magenta: '0xc792ea'
       cyan:    '0x7fdbca'
       white:   '0xffffff'
-colors: *ayu
+colors: *tokyo-night-storm

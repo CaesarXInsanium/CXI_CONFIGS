@@ -15,12 +15,12 @@ require "user.lualine"
 require "user.bufferline"
 
 require "user.lang"
--- require "user.comment"
 
 require "user.session"
 require "user.alpha"
 
 require "user.neovide"
+require "user.toggleterm"
 
 require 'colorizer'.setup()
 require 'Comment'.setup()

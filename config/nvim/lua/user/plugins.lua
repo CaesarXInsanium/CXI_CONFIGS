@@ -56,6 +56,7 @@ return packer.startup(function(use)
   use 'akinsho/bufferline.nvim'
   use 'nvim-telescope/telescope-ui-select.nvim'
   use 'numToStr/Comment.nvim'
+  use 'akinsho/toggleterm.nvim'
 
   -- GIT
   use 'https://github.com/TimUntersberger/neogit'

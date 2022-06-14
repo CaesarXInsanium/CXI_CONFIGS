@@ -33,7 +33,7 @@ keymap("n", "<C-h>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-l>", ":vertical resize +2<CR>", opts)
 
 -- Terminal --
-keymap("n", "<Space>t", ":split term://fish<Enter>i",opts)
+keymap("n", "<Space>t", ":split term://zsh<Enter>i",opts)
 keymap("n", "<Space>T", ":!alacritty -e zsh &<Enter>",opts)
 
 

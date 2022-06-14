@@ -5,7 +5,7 @@ local LSP_SERVERS = {
   'sumneko_lua',
   'rust_analyzer',
   'clangd',
-  'pyright',
+  'jedi_language_server',
   'clojure_lsp',
   'cmake',
   'elixirls',
@@ -17,8 +17,7 @@ local LSP_SERVERS = {
   'kotlin_language_server',
   'vls',
   'jdtls',
-  'diagnosticls',
-  'ltex'
+  'grammarly'
 }
 
 

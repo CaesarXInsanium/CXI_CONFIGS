@@ -1,61 +1,45 @@
-## FIRST LINE/ROW: Info & Status
-add_newline = false
-command_timeout=1000
+add_newline=false
 
-format = """
-$python$directory$character
-"""
-right_format="""
-$all
-$cmd_duration
-"""
+format="$directory$fill$all"
 
-
-[username]
-format = "[Ω]($style)"
-show_always = false
-style_root = "bold red"
-style_user = "bold cyan"
-
-# Second param
-[hostname]
-disabled = false
-format = "[$hostname]($style)∈"
-ssh_only = true
-style = "bold dimmed red"
-trim_at = "-"
-
-[directory]
-style = "cyan"
-repo_root_style = "bold italic cyan"
-truncate_to_repo = true
-truncation_length = 3
-truncation_symbol = "√"
-read_only = "ℜ"
-home_symbol="~"
-
-[cmd_duration]
-disabled=false
-min_time_to_notify=1_000
-format="[$duration]($style)"
+[fill]
+symbol = " "
 
 [line_break]
 disabled = false
 
 [character]
-format="$symbol"
-error_symbol = "[❯❯ ](bold red)"
-success_symbol = "[❯❯ ](bold green)"
+success_symbol="[⊳](bold green)"
+error_symbol="[⊵](bold red)"
 
+[username]
+format = " [$user]($style) "
+show_always = false
+style_root = "bold red"
+style_user = "bold red"
+
+# Second param
+[hostname]
+disabled = false
+format = "[$hostname]($style) "
+ssh_only = true
+style = "bold dimmed red"
+trim_at = "-"
+
+# Third param
+[directory]
+style = "bold cyan"
+truncate_to_repo = true
+truncation_length = 0
+truncation_symbol = " "
+read_only="R"
+home_symbol="∾"
 
 # Fourth param
 [sudo]
 disabled = true
 
 # Before all the version info (python, nodejs, php, etc.)
-[git_branch]
-format="[$symbol$branch]($style)"
-symbol = " "
 [git_status]
 ahead = "⇡${count}"
 behind = "⇣${count}"
@@ -63,9 +47,35 @@ deleted = "x"
 diverged = "⇕⇡${ahead_count}⇣${behind_count}"
 style = "white"
 
+# Last param in the first line/row
+[cmd_duration]
+disabled = false
+format = "took [$duration]($style)"
+min_time = 99
+
 
 ## SECOND LINE/ROW: Prompt
 # Somethere at the beginning
+[battery]
+charging_symbol = ""
+disabled = true
+discharging_symbol = ""
+full_symbol = ""
+
+[[battery.display]]  # "bold red" style when capacity is between 0% and 15%
+disabled = false
+style = "bold red"
+threshold = 15
+
+[[battery.display]]  # "bold yellow" style when capacity is between 15% and 50%
+disabled = true
+style = "bold yellow"
+threshold = 50
+
+[[battery.display]]  # "bold green" style when capacity is between 50% and 80%
+disabled = true
+style = "bold green"
+threshold = 80
 
 # Prompt: optional param 1
 [time]
@@ -75,20 +85,11 @@ style = "bright-white"
 time_format = "%T"
 
 # Prompt: param 2
-# SYMBOLS
-[shell]
-zsh_indicator="z"
-bash_indicator="b"
-fish_indicator = "f"
-nu_indicator="nu"
-powershell_indicator = "_"
-unknown_indicator = "?sh"
-style = "cyan bold"
-disabled = false
 
+# SYMBOLS
 [status]
 disabled = false
-format = "[$status]($style)"
+format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 pipestatus = true
 symbol = "🔴"
@@ -111,6 +112,9 @@ symbol = " "
 [elm]
 symbol = " "
 
+[git_branch]
+symbol = " "
+
 [golang]
 symbol = " "
 
@@ -125,7 +129,6 @@ symbol = " "
 
 [nim]
 symbol = " "
-disabled=true
 
 [nix_shell]
 symbol = " "
@@ -144,16 +147,13 @@ symbol = " "
 
 [python]
 symbol = " "
-disabled=false
-format = "[$virtualenv]($style) "
 
 [ruby]
 symbol = " "
 
 [rust]
 symbol = " "
-disabled=false
-format="[$symbol]($style)"
 
 [swift]
-symbol = "ﯣ"
+symbol = "ﯣ "
+

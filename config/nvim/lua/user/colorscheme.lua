@@ -10,7 +10,7 @@ vim.g.dracula_show_end_of_buffer = true
 vim.g.dracula_transparent_bg = false
 vim.g.dracula_italic_comment = true
 vim.g.catppuccin_floavour = "macchiato" -- latte, frappe, macchiato, mocha
-NVIM_THEME = "catppuccin"
+NVIM_THEME = "ayu-dark"
 
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. NVIM_THEME)
