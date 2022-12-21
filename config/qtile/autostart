@@ -1,0 +1,12 @@
+#! /bin/sh
+
+xrandr -r 165.00 
+wmname LG3D
+emacs --daemon
+# location in Arch Install
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+picom &
+nitrogen --restore
+xfce4-screensaver &
+xfce4-panel &
+lxpolkit &

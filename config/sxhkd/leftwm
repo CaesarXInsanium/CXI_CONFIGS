@@ -1,0 +1,12 @@
+XF86AudioPlay
+	playerctl play-pause
+XF86AudioLowerVolume
+	pamixer -d 5
+XF86AudioRaiseVolume
+	pamixer -i 5
+XF86AudioMute
+	pamixer -t
+XF86AudioNext
+	playerctl next
+XF86AudioPrevious
+	playerctl previous

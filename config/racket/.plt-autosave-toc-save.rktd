@@ -1,0 +1,1 @@
+((#f #"/home/cxi/#mredauto#1#") (#"/home/cxi/Projects/Books/StructureInterpretationComputerPrograms/code/01ch/e22.scm" #"/home/cxi/Projects/Books/StructureInterpretationComputerPrograms/code/01ch/#e22.scm#1#"))
